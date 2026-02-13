@@ -137,6 +137,18 @@ nav {
   position: relative;
 }
 
+.carousel-back-button {
+  position: absolute;
+  top: 0.9rem;
+  left: 0.9rem;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.9rem;
+}
+
 .carousel-track {
   position: relative;
   border-radius: 10px;
@@ -164,6 +176,26 @@ nav {
   height: 2.2rem;
   border-radius: 999px;
   cursor: pointer;
+  z-index: 3;
+  color: #1f1f1f;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.material-section {
+  background: var(--surface);
+  border: 1px solid #ece8e2;
+  border-radius: 14px;
+  padding: 1.4rem;
+  margin-bottom: 3rem;
+}
+
+.material-section ul {
+  margin: 0.8rem 0 0;
+  padding-left: 1.2rem;
 }
 
 .carousel-btn.prev {
