@@ -28,13 +28,17 @@ a {
   margin: 0 auto;
 }
 
+.fw-container {
+  background: rgb(244, 241, 231);
+}
+
 .site-header {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(63, 62, 84, 0.95);
+  color: #fff;
   backdrop-filter: blur(8px);
-  border-bottom: 1px solid #ece8e2;
 }
 
 .header-inner {
@@ -56,12 +60,12 @@ nav {
 
 .hero {
   position: relative;
-  min-height: 56vh;
+  min-height: 70vh;
 }
 
 .hero img {
   width: 100%;
-  height: 56vh;
+  height: 70vh;
   object-fit: cover;
 }
 
@@ -75,13 +79,17 @@ nav {
   padding: 2rem 0;
 }
 
+.hero-overlay .container {
+  text-align: center;
+}
+
 .products-overview {
   padding: 3rem 0;
 }
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 1.2rem;
 }
 
@@ -91,6 +99,7 @@ nav {
   overflow: hidden;
   border: 1px solid #ece8e2;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 360px;
 }
 
 .product-card:hover {
@@ -100,7 +109,7 @@ nav {
 
 .product-card img {
   width: 100%;
-  height: 180px;
+  height: 360px;
   object-fit: cover;
 }
 
@@ -158,7 +167,7 @@ nav {
 .carousel-image {
   display: none;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
 }
 
@@ -185,17 +194,10 @@ nav {
   line-height: 1;
 }
 
-.material-section {
-  background: var(--surface);
-  border: 1px solid #ece8e2;
+.section {
   border-radius: 14px;
-  padding: 1.4rem;
-  margin-bottom: 3rem;
-}
-
-.material-section ul {
-  margin: 0.8rem 0 0;
-  padding-left: 1.2rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
 
 .carousel-btn.prev {
@@ -267,9 +269,9 @@ nav {
 }
 
 .site-footer {
-  border-top: 1px solid #ece8e2;
-  padding: 1.2rem 0;
   color: var(--muted);
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 850px) {

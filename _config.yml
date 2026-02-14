@@ -1,8 +1,10 @@
 title: Eindeloos Licht
-email: hello@eindelooslicht.nl
+email: eindelooslicht@antrum-technologies.nl
 description: Unieke lichtobjecten en designproducten van Eindeloos Licht.
-baseurl: ""
-url: ""
+baseurl: "/"
+url: "https://eindelooslicht.nl"
+
+static_form_api_key: "sf_eg7h3klah7bg2f21hnejmj3d"
 
 collections:
   products:
