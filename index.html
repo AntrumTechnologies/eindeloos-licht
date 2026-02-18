@@ -17,6 +17,7 @@ title: Home
 
 <div class="fw-container">
   <section class="container products-overview">
+    <p class="eyebrow">Onze producten</p>
     <h2>Haal eindeloos veel sfeer in huis</h2>
     <div class="product-grid">
       {% for product in site.products %}
@@ -36,7 +37,7 @@ title: Home
 </div>
 
 <div class="fw-container">
-  <section class="container section">
+  <section class="container section belofte">
     <h2>Onze belofte</h2>
     <p>Bij Eindeloos Licht beloven we meer dan alleen verlichting.</p>
     <p>Wij creëren momenten van warmte, elegantie en betekenis in jouw huis. Elk product wordt met zorg en aandacht geprint met alleen plantaardige materialen.</p>
@@ -44,13 +45,18 @@ title: Home
   </section>
 
   <section class="container section">
-    <h2>Neem een kijkje in ons ontwerpproces</h2>
-    <p>Op Instagram delen we ons ontwerpproces, nieuwe collecties en unieke lichtprojecten die we in Eindhoven creëren.</p>
-
-    <p>Deel jouw foto’s met #EindeloosLicht en verschijn op onze Insta!</p>
-
-    <button href="https://instagram.com/eindelooslicht">Volg ons op Insta</button>
-
-    <img src="/assets/img/insta.webp" />
+    <div class="instagram-grid">
+      <div class="instagram-copy">
+        <p class="eyebrow">Volg ons ontwerpproces op Instagram</p>
+        <h2>Achter de schermen bij Eindeloos Licht</h2>
+        <p>
+          Ontdek nieuwe ontwerpen, materiaaltests met PHA en projecten bij klanten. Op Instagram delen we ons maakproces, samenwerkingen en inspiratie voor duurzame verlichting.
+        </p>
+        <a class="order-button" href="https://instagram.com/eindelooslicht" target="_blank" rel="noopener noreferrer">Volg ons op Insta</a>
+      </div>
+      <div class="instagram-image-wrap">
+        <img src="/assets/img/insta.webp" alt="Screenshot Instagram pagina Eindeloos Licht" loading="lazy" />
+      </div>
+    </div>
   </section>
 </div>

@@ -5,11 +5,11 @@ permalink: /bestellen/
 ---
 <section class="container contact-page">
   <h1>Bestel via dit formulier</h1>
-  <p>Voor vragen of samenwerkingen neem contact op met eindeloos@antrum-technologies.nl</p>
+  <p>Voor vragen of samenwerkingen neem contact op met eindelooslicht@antrum-technologies.nl</p>
 
   <form action="https://api.staticforms.xyz/submit" method="POST" class="contact-form">
     <input type="hidden" name="apiKey" value="{{ site.static_form_api_key }}">
-    <input type="hidden" name="redirectTo" value="https://eindelooslicht.nl/thank-you">
+    <input type="hidden" name="redirectTo" value="https://eindelooslicht.nl/bedankt">
 
     <label for="voornaam" class="form-label">Voornaam
     <input type="text" class="form-control" id="voornaam" name="voornaam" required>
@@ -33,6 +33,10 @@ permalink: /bestellen/
 
     <label for="postcode" class="form-label">Postcode
     <input type="text" class="form-control" id="postcode" name="postcode" required>
+    </label>
+
+    <label for="plaats" class="form-label">Plaats
+    <input type="text" class="form-control" id="plaats" name="plaats" required>
     </label>
 
     <label for="land" class="form-label">Land
