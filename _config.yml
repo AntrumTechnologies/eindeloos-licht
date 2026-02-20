@@ -17,3 +17,6 @@ defaults:
       type: "products"
     values:
       layout: product
+
+plugins:
+  - jekyll-redirect-from
