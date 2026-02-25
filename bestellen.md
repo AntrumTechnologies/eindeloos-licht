@@ -47,27 +47,27 @@ permalink: /bestellen/
     <fieldset>
       <legend class="col-form-label pt-0">Kies je lamp</legend>
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="lampenkap" id="model1" value="Lichtgedraaid - Tafellamp - Maat S">
+        <input class="form-check-input" type="checkbox" name="lampenkap" id="model1" value="Lichtgedraaid - Tafellamp - Maat S - Donkere voet">
         <label class="form-check-label" for="model1">Lichtgedraaid - Tafellamp - Maat S - Donkere voet - 69 EUR</label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="lampenkap" id="model2" value="Lichtgedraaid - Tafellamp - Maat M">
+        <input class="form-check-input" type="checkbox" name="lampenkap" id="model2" value="Lichtgedraaid - Tafellamp - Maat M - Donkere voet">
         <label class="form-check-label" for="model2">Lichtgedraaid - Tafellamp - Maat M - Donkere voet - 74 EUR</label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="lampenkap" id="model3" value="Lichtgedraaid - Tafellamp - Maat L">
+        <input class="form-check-input" type="checkbox" name="lampenkap" id="model3" value="Lichtgedraaid - Tafellamp - Maat L - Donkere voet">
         <label class="form-check-label" for="model3">Lichtgedraaid - Tafellamp - Maat L - Donkere voet - 79 EUR</label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="lampenkap" id="model1" value="Lichtgedraaid - Tafellamp - Maat S">
+        <input class="form-check-input" type="checkbox" name="lampenkap" id="model1" value="Lichtgedraaid - Tafellamp - Maat S - Lichte voet">
         <label class="form-check-label" for="model1">Lichtgedraaid - Tafellamp - Maat S - Lichte voet - 69 EUR</label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="lampenkap" id="model2" value="Lichtgedraaid - Tafellamp - Maat M">
+        <input class="form-check-input" type="checkbox" name="lampenkap" id="model2" value="Lichtgedraaid - Tafellamp - Maat M - Lichte voet">
         <label class="form-check-label" for="model2">Lichtgedraaid - Tafellamp - Maat M - Lichte voet - 74 EUR</label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="lampenkap" id="model3" value="Lichtgedraaid - Tafellamp - Maat L">
+        <input class="form-check-input" type="checkbox" name="lampenkap" id="model3" value="Lichtgedraaid - Tafellamp - Maat L - Lichte voet">
         <label class="form-check-label" for="model3">Lichtgedraaid - Tafellamp - Maat L - Lichte voet - 79 EUR</label>
       </div>
       <div class="form-check">
@@ -84,7 +84,7 @@ permalink: /bestellen/
         <small>We nemen contact met je op om een afhaalmoment in te plannen.</small>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="verzendmethode" id="verzenden" value="Verzenden 5 euro">
+        <input class="form-check-input" type="radio" name="verzendmethode" id="verzenden" value="Verzenden 6 euro">
         <label class="form-check-label" for="verzenden">Verzenden (€ 6,-)</label>
         <small>Via PostNL met track & trace.</small>
       </div>
